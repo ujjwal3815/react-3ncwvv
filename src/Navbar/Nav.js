@@ -21,6 +21,9 @@ const Nav = () => {
             placeholder="  Search...."
           />
         </div>
+        <label id="icon">
+          <i class="fas fa-bars"></i>
+        </label>
       </div>
     </>
   );

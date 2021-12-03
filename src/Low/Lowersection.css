@@ -250,3 +250,38 @@
 
   color: #ffffff;
 }
+
+@media (max-width: 909px) {
+  #content3 {
+    position: absolute;
+    width: 550px;
+    height: 180px;
+    left: 30px;
+    top: -30px;
+
+    background: #1c4d7a;
+  }
+  #head3 {
+    position: absolute;
+    width: 450px;
+    height: 40px;
+    left: 90px;
+    top: 40px;
+
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #ffffff;
+  }
+  #content4 {
+    position: absolute;
+    width: 550px;
+    height: 373px;
+    left: 0px;
+    top: 180px;
+    background-color: #1c4d7a;
+  }
+}
