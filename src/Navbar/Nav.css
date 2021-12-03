@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Cormorant:wght@300&family=EB+Garamond&family=Gentium+Basic&family=Josefin+Sans:wght@100&family=Josefin+Slab:wght@100&family=Oleo+Script&family=Poppins&family=Titan+One&family=Zen+Kurenaido&family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Cormorant:wght@300&family=EB+Garamond&family=Gentium+Basic&family=Josefin+Sans:wght@100&family=Josefin+Slab:wght@100&family=Oleo+Script&family=Poppins&family=Titan+One&family=Zen+Kurenaido&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.head1 {
+  width: 100%;
+  height: 100px;
+  background-color: #f3eaea;
+  left: 0px;
+  top: 0px;
+}
+
+.startheading {
+  position: absolute;
+  width: 143px;
+  height: 47px;
+  left: 192px;
+  top: 26px;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.startheading:hover {
+  color: indianred;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 358px;
+  height: 29px;
+  left: 600px;
+  top: 35px;
+}
+
+nav > a {
+  position: static;
+  width: 63px;
+  height: 29px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  text-decoration: none;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 58px;
+}
+
+nav > a:hover {
+  color: dodgerblue;
+  height: 80px;
+  cursor: pointer;
+}
+
+.likho1 {
+  position: relative !important;
+}
+
+.form-control-text {
+  position: absolute;
+  width: 205px;
+  height: 47px;
+  left: 1450px;
+  top: 26px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  padding-left: 0.2rem;
+
+  background-color: darkgray;
+  color: rgba(0, 0, 0, 0.692);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form-control-text:hover {
+  background-color: white;
+}
