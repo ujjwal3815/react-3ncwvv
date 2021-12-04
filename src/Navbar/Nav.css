@@ -116,7 +116,8 @@ nav > a:hover {
 @media (max-width: 1048px) {
   .startheading {
     font-size: 32px;
-    padding-left: 190px;
+    padding-left: 70px;
+    font-weight: bolder;
   }
   .menu {
     margin-right: 20px;
