@@ -7,7 +7,7 @@ const Nav = () => {
         <a href="bp.html">
           <h1 className="startheading">BookPod.</h1>
         </a>
-        <div class="menu">
+        <div className="menu">
           <nav>
             <a href="home.html">HOME</a>
             <a href="categories.html">CATEGORIES</a>
@@ -21,9 +21,6 @@ const Nav = () => {
             placeholder="  Search...."
           />
         </div>
-        <label id="icon">
-          <i class="fas fa-bars"></i>
-        </label>
       </div>
     </>
   );

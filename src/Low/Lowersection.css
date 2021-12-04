@@ -14,6 +14,7 @@
   height: 569px;
   left: 385px;
   top: 40px;
+  border-radius: 15px;
 
   background: #1c4d7a;
 }
@@ -41,6 +42,7 @@
   left: 180px;
   top: 130px;
   background-color: #1c4d7a;
+  border-radius: 15px;
 }
 
 #img3 {
@@ -252,12 +254,24 @@
 }
 
 @media (max-width: 909px) {
+  #Ls1 {
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    left: 0px;
+    top: 1146px;
+    margin-top: 20;
+  
+    background: #ffffff;
+  }
   #content3 {
     position: absolute;
-    width: 550px;
+    width:550px;
     height: 180px;
     left: 30px;
-    top: -30px;
+    top: 120px;
+    border-radius: 5px;
+    margin-top: 25px;
 
     background: #1c4d7a;
   }
@@ -279,9 +293,212 @@
   #content4 {
     position: absolute;
     width: 550px;
-    height: 373px;
+    height: 850px;
     left: 0px;
     top: 180px;
     background-color: #1c4d7a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+  }
+  #img3 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 80px;
+    top: 10px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #para4 {
+    position: absolute;
+    width: 90px;
+    height: 23px;
+    left: 70px;
+    top: 110px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  #img4 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 335px;
+    top: 10px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #para5 {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 345px;
+    top: 110px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  #img5 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 80px;
+    top:225px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #para6 {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 70px;
+    top: 330px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  #img6 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 335px;
+    top: 225px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #para7 {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 345px;
+    top: 330px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  #img7 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 80px;
+    top: 440px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #para8 {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 70px;
+    top: 545px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  #img8 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 335px;
+    top: 440px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #para9 {
+    position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 320px;
+    top: 545px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  #img9 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 80px;
+    top: 665px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #para0 {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 85px;
+    top: 770px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  #img0 {
+    position: absolute;
+    width: 132px;
+    height: 103px;
+    left: 335px;
+    top: 665px;
+  
+    background: #c4c4c4;
+    border-radius: 50px;
+  }
+  #parag {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 345px;
+    top: 770px;
+  
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
   }
 }
